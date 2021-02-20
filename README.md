@@ -22,7 +22,9 @@ animate: slide(default),fade,show
 ## example
 ```
 <meta charset="UTF-8">
+<title>Demo</title>
 <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+<script src="https://erichsia7.github.io/prompt.js/prompt.min.js"></script>
 <link rel="preconnect" href="https://fonts.gstatic.com"> 
 <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@700&display=swap" rel="stylesheet">
 
