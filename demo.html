@@ -10,11 +10,13 @@ background:url(https://source.unsplash.com/random);
 }
 </style>
 <body>
-<a href="javascript:test()">Test</a>
+<a href="javascript:test('slide')">slide</a>
+  <a href="javascript:test('fade')">fade</a>
+  <a href="javascript:test('show')">show</a>
   <script src="https://erichsia7.github.io/prompt.js/prompt.min.js"></script>
 <script>
-function test() {
-$('body').prompt({'message':'message','time':1800,'animate':'slide'});
+function test(an) {
+$('body').prompt({'message':'message(' + an + ')','time':1800,'animate':an});
 }
 </script>
 </body>
