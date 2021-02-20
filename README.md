@@ -41,6 +41,6 @@ $('body').prompt({'message':'message','time':1800,'animate':'slide'});
 </script>
 </body>
 ```
-[Demo](https://erichsia7.github.io/addtohome.js/demo.html#)
+[Demo](https://erichsia7.github.io/prompt.js/demo.html#)
 ## download
 [prompt.js](https://github.com/EricHsia7/prompt.js/raw/main/prompt.js)
