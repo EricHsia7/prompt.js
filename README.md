@@ -11,7 +11,7 @@ Google Fonts(Suggest)
 ```
 prompt.js
 ```
-<script src="https://erichsia7.github.io/addtohome.js/addtohome.js"></script>
+<script src="https://erichsia7.github.io/prompt.js/prompt.min.js"></script>
 ```
 ## use
 1.script
@@ -34,7 +34,7 @@ background:url(https://source.unsplash.com/random);
 <a href="javascript:test()">pp</a>
 <script>
 function test() {
-$('body').prompt({'message':'我們正在使用您的Cookie。<a href="hhh">暸解詳情</a>','time':10000,'animate':'slide'});
+$('body').prompt({'message':'message','time':1800,'animate':'slide'});
 }
 </script>
 ```
