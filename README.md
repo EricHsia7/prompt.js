@@ -1,0 +1,47 @@
+# prompt.js
+## install
+JQuery
+```
+<script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+```
+Google Fonts(Suggest)
+```
+<link rel="preconnect" href="https://fonts.gstatic.com"> 
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@700&display=swap" rel="stylesheet">
+```
+prompt.js
+```
+<script src="https://erichsia7.github.io/addtohome.js/addtohome.js"></script>
+```
+## use
+1.script
+```
+$('body').prompt({'message':'message','time':time,'animate':'slide'});
+```
+animate: slide(default),fade,show
+## example
+```
+<meta charset="UTF-8">
+<script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+<link rel="preconnect" href="https://fonts.gstatic.com"> 
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@700&display=swap" rel="stylesheet">
+
+<style>
+body {
+background:url(https://source.unsplash.com/random);
+}
+</style>
+<a href="javascript:test()">pp</a>
+<script>
+function test() {
+$('body').prompt({'message':'我們正在使用您的Cookie。<a href="hhh">暸解詳情</a>','time':10000,'animate':'slide'});
+}
+</script>
+```
+[Demo](https://erichsia7.github.io/addtohome.js/demo.html#)
+
+![example](https://erichsia7.github.io/addtohome.js/obJxVL3ZAOjwX3l19RKwJ2Xcx0ypBbEh.jpeg)
+## download
+[default_explanation.html](https://github.com/EricHsia7/addtohome.js/raw/main/default_explanation.html)
+
+[addtohome.js](https://github.com/EricHsia7/addtohome.js/raw/main/addtohome.js)
