@@ -2,7 +2,7 @@
 ## install
 JQuery
 ```
-<script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 ```
 Google Fonts(Suggest)
 ```
@@ -24,7 +24,7 @@ animate: slide(default),fade,show
 <meta charset="UTF-8">
 <title>Demo</title>
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-<script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 <link rel="preconnect" href="https://fonts.gstatic.com"> 
 <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@700&display=swap" rel="stylesheet">
 <style>
