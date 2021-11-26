@@ -1,5 +1,5 @@
 $("body").append(
-    "<style> .promptcenter{position:absolute;left:15px;top:50%;transform:translateY(-50%);color:#fff;font-size:15px;font-family:'Noto Sans TC',sans-serif;font-weight:700} .promptcenter *{color:#fff;font-size:15px;font-family:'Noto Sans TC',sans-serif;font-weight:700}@media only screen and (min-width:400px){.prompt{width:280px;height:50px;background:rgba(51,51,51,.5);border-radius:5px;position:fixed;left:10px;bottom:-80px;opacity:0;-webkit-backdrop-filter:blur(8px);backdrop-filter:blur(8px);transform:translateX(-0%);}}@media only screen and (max-width:400px){.prompt{width:calc(100% - 20px);height:60px;background:rgba(51,51,51,.5);border-radius:8px;position:fixed;left:50%;bottom:-80px;opacity:0;transform:translateX(-50%);-webkit-backdrop-filter:blur(8px);backdrop-filter:blur(8px)}}</style>"
+    "<style>.prompt{position:fixed;left:50%;bottom:85px;transform:translateX(-50%);background:#f5f5f5;width:calc(var(--mjw-trjs) - 15px);height:50px;border-radius:15px;display:flex;align-items:center;font-weight:700;padding-left:15px}@media (prefers-color-scheme: dark){.prompt{background:#1f1f1f;color:#fff}}</style>"
 );
 
 (function ($) {
@@ -23,10 +23,10 @@ $("body").append(
             }
 
             if (settings.animate === "slide") {
-                $(this).append('<div class="prompt" id="' + promptid + '"><span class="promptcenter">' + settings.message + "</span></div>");
+                $(this).append('<div class="prompt" id="' + promptid + '">' + settings.message + "</div>");
 
                 setTimeout(function () {
-                    $("#" + promptid).css({ opacity: "1", transition: "0.4s", bottom: "10px" });
+                    $("#" + promptid).css({ opacity: "1", transition: "0.4s", bottom: "85px" });
                 }, 100);
 
                 setTimeout(function () {
