@@ -23,14 +23,14 @@ $("body").append(
             }
 
             if (settings.animate === "slide") {
-                $(this).append('<div class="prompt" id="' + promptid + '" style="transform:scale(0.8);opacity:0">' + settings.message + "</div>");
+                $(this).append('<div class="prompt" id="' + promptid + '" style="transform:scale(0.8) transleteX(-50%);opacity:0">' + settings.message + "</div>");
 
                 setTimeout(function () {
-                    $("#" + promptid).css({ opacity: "1", transition: "0.4s", transform: "scale(1)" });
+                    $("#" + promptid).css({ opacity: "1", transition: "0.4s", transform: "scale(1) transleteX(-50%)" });
                 }, 100);
 
                 setTimeout(function () {
-                    $("#" + promptid).css({ opacity: "0", transition: "0.4s", transform: "scale(0.8)" });
+                    $("#" + promptid).css({ opacity: "0", transition: "0.4s", transform: "scale(0.8) transleteX(-50%)" });
                 }, settings.time + 100);
 
                 setTimeout(function () {
