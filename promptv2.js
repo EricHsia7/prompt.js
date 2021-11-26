@@ -1,5 +1,5 @@
 $("body").append(
-    "<style>.prompt{position:fixed;left:50%;bottom:85px;transform:translateX(-50%);background:#f5f5f5;width:calc(var(--mjw-trjs) - 15px);height:50px;border-radius:15px;display:flex;align-items:center;font-weight:700;padding-left:15px}@media (prefers-color-scheme: dark){.prompt{background:#1f1f1f;color:#fff}}</style>"
+    "<style>.prompt{position:fixed;left:50%;bottom:85px;transform:translateX(-50%);background:#f5f5f5;width:calc(var(--mjw-trjs) - 15px);height:50px;border-radius:15px;display:flex;align-items:center;font-weight:700;padding-left:15px;transform-origin:center}@media (prefers-color-scheme: dark){.prompt{background:#1f1f1f;color:#fff}}</style>"
 );
 
 (function ($) {
